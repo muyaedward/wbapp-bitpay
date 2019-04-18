@@ -1,9 +1,5 @@
 # Laravel + BitPay Integration
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/vrajroham/wbapp-bitpay.svg?style=for-the-badge)](https://packagist.org/packages/vrajroham/wbapp-bitpay)
-[![Build Status](https://img.shields.io/travis/vrajroham/wbapp-bitpay/master.svg?style=for-the-badge)](https://travis-ci.org/vrajroham/wbapp-bitpay)
-[![Quality Score](https://img.shields.io/scrutinizer/g/vrajroham/wbapp-bitpay.svg?style=for-the-badge)](https://scrutinizer-ci.com/g/vrajroham/wbapp-bitpay)
-[![Total Downloads](https://img.shields.io/packagist/dt/vrajroham/wbapp-bitpay.svg?style=for-the-badge)](https://packagist.org/packages/vrajroham/wbapp-bitpay)
 
 Accept Bitcoin and Bitcoin Cash for your business with your Laravel application and BitPay client.
 ## Installation
@@ -11,7 +7,7 @@ Accept Bitcoin and Bitcoin Cash for your business with your Laravel application 
 You can install the package via composer:
 
 ```bash
-composer require vrajroham/wbapp-bitpay
+composer require muyaedward/wbapp-bitpay
 ```
 Publish config file with:
 
@@ -117,11 +113,11 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 ### Security
 
-If you discover any security related issues, please email vaibhavraj@vrajroham.me instead of using the issue tracker.
+If you discover any security related issues, please email muyaedward@gmail.com instead of using the issue tracker.
 
 ## Credits
 
-- [Vaibhavraj Roham](https://github.com/vrajroham)
+- [Edward Mwangi](https://github.com/muyaedward)
 - [All Contributors](../../contributors)
 
 ## License
