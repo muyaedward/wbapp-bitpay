@@ -1,0 +1,55 @@
+{
+    "name": "muyaedward/wbapp-bitpay",
+    "description": "Bitpay wrapper for WritersBay App",
+    "keywords": [
+        "bitapy",
+        "BTC",
+        "writersbayapp"
+    ],
+    "homepage": "https://github.com/muyaedward/wbapp-bitpay",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Edward Mwangi",
+            "email": "muyaedward@gmail.com",
+            "homepage": "https://jumuika.co.ke",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "bitpay/php-client": "~2.2"
+    },
+    "require-dev": {
+        "larapack/dd": "^1.0",
+        "phpunit/phpunit": "^7.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Muyaedward\\WbappBitpay\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Muyaedward\\WbappBitpay\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Muyaedward\\WbappBitpay\\WbappBitpayServiceProvider"
+            ],
+            "aliases": {
+                "WbappBitpay": "Muyaedward\\WbappBitpay\\WbappBitpayFacade"
+            }
+        }
+    },
+    "minimum-stability":"dev"
+}
