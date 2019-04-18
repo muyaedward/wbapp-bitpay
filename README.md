@@ -1,7 +1,7 @@
-# Laravel + BitPay Integration
+# WritersBay App + BitPay Integration
 
 
-Accept Bitcoin and Bitcoin Cash for your business with your Laravel application and BitPay client.
+Accept Bitcoin and Bitcoin Cash for your WritersBay App and BitPay client.
 ## Installation
 
 You can install the package via composer:
